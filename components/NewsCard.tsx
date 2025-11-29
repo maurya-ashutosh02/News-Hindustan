@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Article } from "@/lib/newsApi";
 import { Clock } from "lucide-react";
 import { getRelativeTime } from "@/lib/newsApi";
-import SafeImage from "./SafeImage";
 interface NewsCardProps {
   article: Article;
   country: string;
@@ -23,7 +22,7 @@ export default function NewsCard({
       >
         <div className="flex gap-3 p-3">
           <div className="relative w-24 h-24 flex-shrink-0">
-            <SafeImage
+            <Image
               src={article.imageUrl}
               alt={article.title}
               fill
