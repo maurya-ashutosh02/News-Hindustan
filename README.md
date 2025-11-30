@@ -1,4 +1,4 @@
-# NewsPulse - News Portal Built with Next.js 14
+# Hindustan news- News Portal Built with Next.js 14
 
 A modern, responsive news portal inspired by LiveHindustan, built with Next.js 14, TypeScript, and TailwindCSS.
 
@@ -28,7 +28,7 @@ A modern, responsive news portal inspired by LiveHindustan, built with Next.js 1
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd newspulse
+cd newshindustan
 
 # Install dependencies
 npm install
@@ -52,7 +52,7 @@ npm start
 ## 📁 Project Structure
 
 ```
-newspulse/
+newshindustan/
 ├── app/
 │   ├── layout.tsx              # Root layout with Navbar & Footer
 │   ├── page.tsx                # Home page (ISR)
